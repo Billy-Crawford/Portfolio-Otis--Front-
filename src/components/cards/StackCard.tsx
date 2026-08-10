@@ -53,7 +53,7 @@ export default function StackCard() {
           ))}
         </div>
 
-        <div className="mt-auto pt-6">
+        <div className="mt-auto pt-2">
           <span className="font-medium text-red-500">
             Voir toute la stack →
           </span>

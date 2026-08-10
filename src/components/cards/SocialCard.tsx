@@ -28,8 +28,8 @@ export default function SocialCard() {
             et plateformes professionnelles.
           </p>
 
-          <div className="mt-5 flex flex-wrap gap-2">
-            {["GitHub", "LinkedIn", "Instagram", "TikTok"].map(
+          <div className="mt-3 flex flex-wrap gap-2">
+            {["GitHub", "LinkedIn", "Instagram",].map(
               (social) => (
                 <span
                   key={social}
@@ -39,7 +39,7 @@ export default function SocialCard() {
                     border-zinc-700
                     bg-zinc-800/70
                     px-3
-                    py-1.5
+                    py-0.5
                     text-xs
                     text-zinc-300
                   "
@@ -51,7 +51,7 @@ export default function SocialCard() {
           </div>
         </div>
 
-        <div className="pt-6">
+        <div className="pt-2">
           <span className="font-medium text-red-500">
             Voir mes réseaux →
           </span>

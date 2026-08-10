@@ -3,11 +3,8 @@
 import Card from "@/components/ui/Card";
 
 const skills = [
-  "Développement web",
-  "Développement backend",
+  "Développement web & mobile",
   "Intelligence artificielle",
-  "Machine Learning",
-  "Développement mobile",
   "Bases de données",
 ];
 
@@ -62,7 +59,7 @@ export default function SkillsCard() {
           ))}
         </div>
 
-        <div className="mt-auto pt-6">
+        <div className="mt-auto pt-2">
           <span className="font-medium text-red-500">
             Voir mes compétences →
           </span>
