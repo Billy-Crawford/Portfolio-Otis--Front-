@@ -16,7 +16,7 @@ export default function PhotoCard() {
       "
     >
       <Image
-        src="/images/profil.jpg"
+        src="/images/me.jpg"
         alt={`Photo de ${portfolio.name}`}
         fill
         priority

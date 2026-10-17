@@ -11,11 +11,9 @@ export const stack: StackCategory[] = [
     title: "Frontend",
     description: "Technologies utilisées pour créer des interfaces web modernes.",
     technologies: [
-      "Next.js",
       "React",
       "TypeScript",
       "JavaScript",
-      "Tailwind CSS",
       "HTML",
       "CSS",
     ],
@@ -25,7 +23,6 @@ export const stack: StackCategory[] = [
     title: "Backend",
     description: "Technologies utilisées pour développer des API et applications serveur.",
     technologies: [
-      "Node.js",
       "Python",
       "Django",
       "Flask",
@@ -39,7 +36,6 @@ export const stack: StackCategory[] = [
     technologies: [
       "PostgreSQL",
       "MySQL",
-      "MongoDB",
     ],
   },
 
@@ -61,8 +57,6 @@ export const stack: StackCategory[] = [
     technologies: [
       "Flutter",
       "Dart",
-      "Kotlin",
-      "Jetpack Compose",
     ],
   },
 

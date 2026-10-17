@@ -34,12 +34,12 @@ export default function Header() {
 
           <div className="leading-none">
             <p className="text-lg font-black tracking-tight text-white">
-              OTIS
+              OTISDAV
             </p>
-
+{/* 
             <p className="mt-1 text-[10px] uppercase tracking-[0.25em] text-zinc-500">
               Digital Portfolio
-            </p>
+            </p> */}
           </div>
         </Link>
 
@@ -51,7 +51,7 @@ export default function Header() {
           </span>
 
           <span className="text-xs font-medium uppercase tracking-[0.2em] text-zinc-400">
-            Available for projects
+            Disponible for projects
           </span>
         </div>
 
@@ -79,7 +79,7 @@ export default function Header() {
             hover:text-white
           "
         >
-          <span>Let's talk</span>
+          <span>Discutons</span>
 
           <span
             className="

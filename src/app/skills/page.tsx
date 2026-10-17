@@ -1,83 +1,109 @@
-// src/app/skills/page.tsx
+
+ // src/app/skills/page.tsx
 
 import Link from "next/link";
 
 const skills = [
   {
-    title: "Développement Web",
+    title: "Développement Backend",
     description:
-      "Conception d'applications web modernes, performantes et responsives.",
+      "Conception de la logique métier, d'API REST et de services backend pour des applications web.",
     items: [
-      "Frontend",
-      "Backend",
+      "Python",
+      "Django",
+      "Django REST Framework",
       "API REST",
-      "Applications full-stack",
+      "Authentification et gestion des données",
+    ],
+  },
+
+  {
+    title: "Développement Frontend",
+    description:
+      "Création d'interfaces web modernes, interactives et adaptées aux différents écrans.",
+    items: [
+      "JavaScript",
+      "React.js",
+      "HTML5 & CSS3",
+      "Tailwind CSS",
       "Interfaces responsives",
     ],
   },
 
   {
-    title: "Intelligence Artificielle",
+    title: "Intelligence Artificielle & Vision",
     description:
-      "Conception et intégration de solutions basées sur l'intelligence artificielle.",
+      "Exploration de solutions de traitement d'images et d'automatisation intégrables aux applications.",
     items: [
-      "Machine Learning",
-      "Deep Learning",
+      "OCR",
+      "OpenCV",
       "Computer Vision",
-      "Traitement des données",
-      "Modèles prédictifs",
-    ],
-  },
-
-  {
-    title: "Développement Mobile",
-    description:
-      "Création d'applications mobiles modernes pour différentes plateformes.",
-    items: [
-      "Flutter",
-      "Dart",
-      "Kotlin",
-      "Jetpack Compose",
-      "Applications Android",
+      "Traitement d'images",
+      "Intégration de fonctionnalités IA",
     ],
   },
 
   {
     title: "Bases de données",
     description:
-      "Conception, manipulation et gestion de bases de données.",
+      "Conception, organisation et exploitation des données pour des applications fiables.",
     items: [
       "PostgreSQL",
-      "MySQL",
-      "MongoDB",
-      "Modélisation",
       "SQL",
+      "Modélisation des données",
+      "Relations entre tables",
+      "Intégration avec Django",
     ],
   },
 
   {
-    title: "DevOps & outils",
+    title: "Développement Mobile",
     description:
-      "Outils et pratiques utilisés pour développer et déployer des applications.",
+      "Développement d'applications mobiles connectées à des API backend.",
+    items: [
+      "Flutter",
+      "Dart",
+      "Consommation d'API REST",
+      "Intégration frontend-backend",
+    ],
+  },
+
+  {
+    title: "Outils & Déploiement",
+    description:
+      "Utilisation des outils de développement et des services nécessaires à la mise en ligne des applications.",
     items: [
       "Git",
       "GitHub",
-      "Docker",
-      "Linux",
-      "CI/CD",
+      "Render",
+      "Vercel",
+      "Neon & Cloudinary",
     ],
   },
 
   {
-    title: "Conception & Architecture",
+    title: "Architecture logicielle",
     description:
-      "Organisation et conception d'applications robustes et maintenables.",
+      "Structuration des applications pour faciliter leur évolution, leur maintenance et leur réutilisation.",
     items: [
       "Architecture logicielle",
-      "API REST",
-      "Design patterns",
-      "Clean Code",
-      "Applications modulaires",
+      "Conception d'API",
+      "Séparation frontend-backend",
+      "Organisation du code",
+      "Principes de maintenabilité",
+    ],
+  },
+
+  {
+    title: "Data & Analyse",
+    description:
+      "Développement progressif de compétences pour manipuler, explorer et analyser des données.",
+    items: [
+      "Python pour la data",
+      "NumPy — apprentissage",
+      "Pandas — apprentissage",
+      "Nettoyage des données",
+      "Analyse exploratoire — apprentissage",
     ],
   },
 ];
@@ -86,24 +112,19 @@ export default function SkillsPage() {
   return (
     <main className="min-h-screen bg-zinc-950 text-white">
       <div className="mx-auto max-w-7xl px-6 py-16">
-
         {/* Retour */}
         <Link
           href="/"
           className="
-            inline-flex
-            items-center
-            gap-2
-            text-sm
-            text-zinc-400
-            transition-colors
-            hover:text-red-500
+            inline-flex items-center gap-2
+            text-sm text-zinc-400
+            transition-colors hover:text-red-500
           "
         >
           ← Retour au portfolio
         </Link>
 
-        {/* Header */}
+        {/* En-tête */}
         <header className="mt-12 max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-red-500">
             Expertise
@@ -114,24 +135,22 @@ export default function SkillsPage() {
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-zinc-400">
-            Découvrez les différents domaines dans lesquels Otis
-            développe ses compétences et construit ses projets.
+            Développeur Web Full Stack orienté Python, Backend et
+            Intelligence Artificielle, je conçois des applications,
+            développe des API et explore des solutions de traitement
+            d'images et d'analyse de données.
           </p>
         </header>
 
-        {/* Compétences */}
+        {/* Cartes de compétences */}
         <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {skills.map((skill) => (
             <article
               key={skill.title}
               className="
-                rounded-3xl
-                border
-                border-zinc-800
-                bg-zinc-900/50
-                p-6
-                transition-all
-                duration-300
+                rounded-3xl border border-zinc-800
+                bg-zinc-900/50 p-6
+                transition-all duration-300
                 hover:-translate-y-1
                 hover:border-red-500/50
               "
@@ -148,20 +167,17 @@ export default function SkillsPage() {
                 {skill.items.map((item) => (
                   <li
                     key={item}
-                    className="flex items-center gap-3 text-sm text-zinc-300"
+                    className="flex items-start gap-3 text-sm text-zinc-300"
                   >
-                    <span className="h-1.5 w-1.5 rounded-full bg-red-500" />
-
-                    {item}
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-red-500" />
+                    <span>{item}</span>
                   </li>
                 ))}
               </ul>
             </article>
           ))}
         </div>
-
       </div>
     </main>
   );
 }
-

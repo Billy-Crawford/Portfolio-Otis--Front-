@@ -15,37 +15,37 @@ import {
 const socials = [
   {
     name: "GitHub",
-    username: "@otis",
+    username: "@botcholi_d",
     href: portfolio.socials.github,
     icon: FaGithub,
   },
   {
     name: "LinkedIn",
-    username: "@otis",
+    username: "@botcholi_d",
     href: portfolio.socials.linkedin,
     icon: FaLinkedin,
   },
   {
     name: "Instagram",
-    username: "@otis",
+    username: "@botcholi_d",
     href: portfolio.socials.instagram,
     icon: FaInstagram,
   },
   {
     name: "TikTok",
-    username: "@otis",
+    username: "@botcholi_d",
     href: portfolio.socials.tiktok,
     icon: FaTiktok,
   },
-  {
-    name: "Facebook",
-    username: "Otis",
-    href: portfolio.socials.facebook,
-    icon: FaFacebook,
-  },
+  // {
+  //   name: "Facebook",
+  //   username: "Otis",
+  //   href: portfolio.socials.facebook,
+  //   icon: FaFacebook,
+  // },
   {
     name: "Snapchat",
-    username: "@otis",
+    username: "@botcholi_d",
     href: portfolio.socials.snapchat,
     icon: FaSnapchatGhost,
   },

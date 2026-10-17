@@ -31,7 +31,7 @@ export default function EducationCard() {
 
         <div className="mt-6">
           <p className="text-sm text-zinc-300">
-            Master • Informatique • IA
+            Informatique • IA
           </p>
 
           <span className="mt-5 block font-medium text-red-500">

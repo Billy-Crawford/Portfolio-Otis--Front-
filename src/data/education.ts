@@ -1,4 +1,5 @@
-// src/data/education.ts
+
+ // src/data/education.ts
 
 export type Education = {
   period: string;
@@ -10,31 +11,30 @@ export type Education = {
 
 export const educations: Education[] = [
   {
-    period: "2025 - 2026",
-    degree: "Master 1 Intelligence Artificielle",
-    school: "Université / École",
-    description:
-      "Formation spécialisée dans l'intelligence artificielle, le machine learning, le deep learning et le développement de solutions intelligentes.",
-    skills: [
-      "Intelligence Artificielle",
-      "Machine Learning",
-      "Deep Learning",
-      "Python",
-    ],
-  },
-
-  {
     period: "2022 - 2025",
-    degree: "Licence Informatique",
-    school: "Université / École",
+    degree: "Licence en Informatique — Architecture des logiciels",
+    school: "ESGIS Togo",
     description:
-      "Formation en informatique couvrant le développement logiciel, les bases de données, les réseaux et les systèmes.",
+      "Formation en informatique, réseaux et télécommunications, avec une spécialisation en architecture des logiciels. Acquisition de compétences en programmation, conception d'applications, développement web et gestion de bases de données.",
     skills: [
       "Programmation",
-      "Bases de données",
+      "Architecture logicielle",
       "Développement Web",
-      "Algorithmique",
+      "Bases de données",
+      "Réseaux et Télécommunications",
     ],
   },
-];
 
+  // {
+  //   period: "2020 - 2021",
+  //   degree: "Baccalauréat — Série D",
+  //   school: "CDBK Kara",
+  //   description:
+  //     "Formation secondaire générale avec un parcours scientifique, permettant d'acquérir des bases en mathématiques, en sciences et en raisonnement analytique.",
+  //   skills: [
+  //     "Mathématiques",
+  //     "Sciences",
+  //     "Raisonnement analytique",
+  //   ],
+  // },
+];

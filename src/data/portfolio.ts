@@ -1,7 +1,7 @@
 // src/data/portfolio.ts
 
 export const portfolio = {
-  name: "Otis",
+  name: "botcholi_d",
 
   role: "Développeur Full Stack",
 
@@ -11,28 +11,24 @@ export const portfolio = {
     d'expériences numériques modernes.
   `,
 
-  skills: [
-    "Next.js",
-    "TypeScript",
-    "React",
-    "Tailwind CSS",
-    "Node.js",
+  skills: [ 
+    "Django, FastAPI",
+    "React, TypeScript, Flutter",
     "PostgreSQL",
-    "Docker",
-    "IA",
+    "Docker, Git, Github",
   ],
 
   socials: {
-    github: "https://github.com/otis",
-    linkedin: "https://linkedin.com/in/otis",
-    instagram: "https://instagram.com/otis",
-    tiktok: "https://tiktok.com/@otis",
+    github: "https://github.com/OTISDav",
+    linkedin: "https://www.linkedin.com/in/david-botcholi-otis",
+    instagram: "https://www.instagram.com/botcholi_d?rpxt=ZnJmb2hobzNqcjE=",
+    tiktok: "https://tiktok.com/@botcholi_d",
     facebook: "https://facebook.com/otis",
-    snapchat: "https://snapchat.com/add/otis",
+    snapchat: "https://www.snapchat.com/add/botcholi_d?share_id=fPhABXzALag&locale=fr-FR",
   },
 
   contact: {
-    email: "contact@otis.dev",
+    email: "davidbotcholi2003@gmail.com",
     whatsapp: "https://wa.me/22891753075",
   },
 };

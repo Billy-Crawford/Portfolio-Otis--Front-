@@ -1,4 +1,3 @@
-// src/components/cards/GithubCard.tsx
 
 import Card from "@/components/ui/Card";
 import SectionTitle from "@/components/ui/SectionTitle";
